@@ -35,6 +35,5 @@ alias rebuild="docker-compose up --build"
 
 # Oh My Zsh plugins
 
-alias install_plugins="git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-"
+alias install_plugins="git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
 
