@@ -41,5 +41,5 @@ alias install_plugins="git clone https://github.com/zsh-users/zsh-autosuggestion
 # Projects Alias
 
 # Install superdrogas project
-alias makesuper="docker exec -it saas_pg psql -U postgres -c \"create database multitenant\" && docker exec -it saas_pg psql -U postgres -d multitenant -f /home/_datos_iniciales/1_tenant_publico.sql && docker-compose restart"
+alias makesuper="docker exec -it saas_pg psql -U postgres -d multitenant -f /home/_datos_iniciales/1_tenant_publico.sql && docker-compose restart"
 
