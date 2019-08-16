@@ -2,7 +2,7 @@
 
 alias alias_folder="cd $ZSH_CUSTOM"
 
-# Put in plugins -->  plugins=(git zsh-autosuggestions django)
+# Put in plugins -->  plugins=(git django docker git-flow pipenv pip python zsh-autosuggestions)
 alias zsh_config="nano ~/.zshrc"
 
 # General 
