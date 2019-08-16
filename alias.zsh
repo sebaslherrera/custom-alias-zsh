@@ -11,7 +11,21 @@ alias start_ap="sudo service apache2 start & sudo service postgresql start"
 alias superdrogas="cd /home/dintev/Documentos/sebaspersonal/django/SaaS_SuperDrogas"
 alias moove="cd /var/www/html/moodle35/theme/moove"
 
-# Pc
+# Pc anton2
 
 
-# Laptop
+# Laptop sebas119
+
+alias superdrogas_laptop="cd /home/anton2/Documents/django/SaaS_SuperDrogas"
+
+
+# Docker
+
+# Delete all the containers
+alias delcontainers="docker rm $(docker ps -a -q) -f"
+
+# Delete all the modules
+alias delvolume="docker volume prune"
+
+# Recreate the volumes
+alias rebuild="docker-compose up --build"
