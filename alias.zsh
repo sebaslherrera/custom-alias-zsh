@@ -13,13 +13,14 @@ alias start_ap="sudo service apache2 start & sudo service postgresql start"
 alias superdrogas="cd /home/dintev/Documentos/sebaspersonal/django/SaaS_SuperDrogas"
 alias moove="cd /var/www/html/moodle35/theme/moove"
 
-# Pc anton2
+# Pc sebas119
 
+alias superdrogas_pc="cd /home/sebas119/Documents/django/project/SaaS_SuperDrogas"
+alias monster_pc="cd /home/sebas119/Documents/django/project/monstertemplate/monster-admin/HTML/main"
 
-# Laptop sebas119
+# Laptop anton2
 
 alias superdrogas_laptop="cd /home/anton2/Documents/django/SaaS_SuperDrogas"
-
 
 # Docker
 
@@ -32,8 +33,6 @@ alias delvolume="docker volume prune"
 # Recreate the volumes
 alias rebuild="docker-compose up --build"
 
-
 # Oh My Zsh plugins
 
 alias install_plugins="git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
-
