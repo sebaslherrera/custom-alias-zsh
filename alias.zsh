@@ -36,3 +36,10 @@ alias rebuild="docker-compose up --build"
 # Oh My Zsh plugins
 
 alias install_plugins="git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
+
+
+# Projects Alias
+
+# Install superdrogas project
+alias makesuper="docker exec -it saas_pg psql -U postgres -c \"create database multitenant\" && docker exec -it saas_pg psql -U postgres -d multitenant -f /home/_datos_iniciales/1_tenant_publico.sql && docker-compose restart"
+
