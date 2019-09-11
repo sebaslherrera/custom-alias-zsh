@@ -1,7 +1,7 @@
 # Put the alias here echo $ZSH_CUSTOM
 
 alias alias_folder="cd $ZSH_CUSTOM"
-
+# My favourite themes is ZSH_THEME="gnzh"
 # Put in plugins -->  plugins=(git django docker git-flow pipenv pip python zsh-autosuggestions)
 alias zsh_config="nano ~/.zshrc"
 
