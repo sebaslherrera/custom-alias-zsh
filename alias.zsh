@@ -15,4 +15,8 @@ alias install_plugins="git clone https://github.com/zsh-users/zsh-autosuggestion
 
 # Projects Alias
 
+# Alias for holberton hippoproject
 
+alias hippoproject='python2 /home/vagrant/hipposcraper/hippoproject.py'
+alias hipporead='python2 /home/vagrant/hipposcraper/hipporead.py'
+alias hipposcrape='python2 /home/vagrant/hipposcraper/hipposcrape.sh'
