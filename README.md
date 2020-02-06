@@ -17,7 +17,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 rm -rf ~/.oh-my-zsh/custom
 
 # Clone this custom folder
-git clone git@github.com:joelchelliah/oh-my-zsh-custom.git ~/.oh-my-zsh/custom
+git clone https://github.com/sebas119/custom-alias-zsh.git ~/.oh-my-zsh/custom
 
 # Clone zsh-autosuggestions plugin in custom folder
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
