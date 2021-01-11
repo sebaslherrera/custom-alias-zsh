@@ -3,9 +3,22 @@
 
 # General oh-my-zsh-custom
 
-alias alias_folder="cd $ZSH_CUSTOM"
-alias zsh_config="nano ~/.zshrc"
+alias zshdir="cd $ZSH_CUSTOM"
+alias zshconf="nano ~/.zshrc"
 
 # Oh My Zsh plugins
 
 alias install_plugins="git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
+
+# Personal projects
+
+alias personal="cd ~/workspace"
+
+# Work projects
+
+alias work="cd ~/work-bolivar"
+
+# Learn material
+
+alias learn="cd ~/learn"
+
