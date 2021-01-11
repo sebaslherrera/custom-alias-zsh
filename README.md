@@ -24,12 +24,16 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```
 
 
-:link: **Symlink `.zshrc`**
+:link: **Symlink `Config files`**
 ```bash
 # Delete existing .zshrc
 rm ~/.zshrc
 
-# Link this .zshrc
+# Delete existing .zshenv if exists
+rm -f ~/.zshenv
+
+# Link the config files
 ln -s ~/.oh-my-zsh/custom/zshrc ~/.zshrc
+ln -s ~/.oh-my-zsh/custom/zshenv ~/.zshenv
 ```
 
