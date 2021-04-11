@@ -22,3 +22,6 @@ alias work="cd ~/work-bolivar"
 
 alias learn="cd ~/learn"
 
+# Vagrant Hipposcraper
+
+alias hipposcrape='/home/vagrant/hipposcraper/hipposcrape.sh'
